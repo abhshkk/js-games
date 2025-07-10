@@ -1,9 +1,71 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=sudoku.html" />
-  </head>
-  <body>
-    <p>Redirecting to <a href="sudoku.html">Sudoku Game</a>...</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Games by Abhshkk</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5ff;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #6a0dad;
+      margin-bottom: 40px;
+    }
+
+    .game-links {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .game-card {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 20px;
+      width: 220px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: white;
+      background-color: #6a0dad;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>My JavaScript Games</h1>
+
+  <div class="game-links">
+    <div class="game-card">
+      <h3>Sudoku</h3>
+      <p>A browser-based Sudoku puzzle game.</p>
+      <a href="sudoku.html" target="_blank">Play</a>
+    </div>
+
+    <div class="game-card">
+      <h3>Tic Tac Toe</h3>
+      <p>Classic two-player Tic Tac Toe game.</p>
+      <a href="toe.html" target="_blank">Play</a>
+    </div>
+  </div>
+</body>
 </html>
+
